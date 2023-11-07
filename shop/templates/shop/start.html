@@ -14,7 +14,13 @@
 </head>
 
 <body>
-  <h1>Shop Firma Hans Holzauge</h1>
+    {% include "shop/menue.html" %}
+    <div class="container">
+      {% block content %}
+          
+      {% endblock content %}
+  
+    </div>
   
 
   <!-- Bootstrap JavaScript Libraries -->

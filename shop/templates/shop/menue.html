@@ -1,0 +1,9 @@
+(% load static %)
+<nav class="navbar shadow p-3 ab-4" style="background-color: orange">
+    <div class="container-fluid">
+        <a class="navbar-brand link-light" href="(% url 'shop' %)"> <img src= "($static 'pics/logo.png'%)" alt="user Logo"/> </a>
+            <a href={% url 'shop' %}>Shop </a>
+            <a href={% url 'warenkorb' %}>Warenkorb </a>
+            <a href={% url 'kasse' %}>Kasse </a>
+    </div>
+</nav>
